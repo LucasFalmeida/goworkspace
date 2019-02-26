@@ -3,12 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	x := 33
+var x [5] int
+x[0] = 1
+x[1] = 2
+x[2] = 3
+x[3] = 4
+x[4] = 5
 
-	for x <= 122{
-		x++
-		fmt.Println("%V\t%#U\n", x, x)
-
-	}
+for i,v := range x{
+	fmt.Println(i,v)
+}
 }
 
