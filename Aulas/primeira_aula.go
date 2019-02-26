@@ -2,18 +2,13 @@ package main
 
 import "fmt"
 
-type cachorro int
-var x cachorro
+func main() {
+	x := 33
 
-func main(){
-//s := fmt.Sprintf("%v\t%v\t%v", x,y,z)
-fmt.Println(x)
-x = 42
-fmt.Println(x)
+	for x <= 122{
+		x++
+		fmt.Println("%V\t%#U\n", x, x)
 
-
-
-
-
+	}
 }
 
