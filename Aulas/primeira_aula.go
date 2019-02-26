@@ -2,20 +2,18 @@ package main
 
 import "fmt"
 
+type cachorro int
+var x cachorro
+
 func main(){
-	falar()
-}
-/*
-func teste(){
-	for i:= 0;i<100;i++{
-		if i%2 ==0{
-			fmt.Print(i)
-		}
-	}
+//s := fmt.Sprintf("%v\t%v\t%v", x,y,z)
+fmt.Println(x)
+x = 42
+fmt.Println(x)
+
+
+
+
+
 }
 
-*/
-
-func falar(){
-	fmt.Print("Teste")
-}
