@@ -10,5 +10,4 @@ func main()  {
  x[2] = 3
  x[3] = 4
 
- fmt.Println(x)
-}
+ fmt.Println(x)}
