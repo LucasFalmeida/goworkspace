@@ -52,5 +52,5 @@ func lotteryCoupons(n int32) int32 {
 }
 
 func main() {
-	fmt.Println(lotteryCoupons(26))
+	fmt.Println(lotteryCoupons(39))
 }
